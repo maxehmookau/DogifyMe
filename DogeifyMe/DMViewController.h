@@ -8,6 +8,12 @@
 
 #import <UIKit/UIKit.h>
 
-@interface DMViewController : UIViewController
+@interface DMViewController : UIViewController <UIImagePickerControllerDelegate, UINavigationControllerDelegate>
+
+@property (nonatomic) IBOutlet UIButton *cameraBtn;
+@property (nonatomic) IBOutlet UIButton *libraryBtn;
+
+- (IBAction)didPressCameraButton:(id)sender;
+- (IBAction)didPressLibraryButton:(id)sender;
 
 @end

@@ -21,6 +21,7 @@
 		4DB7B16E18A53C2E0020BCF0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DB7B15018A53C2E0020BCF0 /* UIKit.framework */; };
 		4DB7B17618A53C2E0020BCF0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4DB7B17418A53C2E0020BCF0 /* InfoPlist.strings */; };
 		4DB7B17818A53C2E0020BCF0 /* DogeifyMeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DB7B17718A53C2E0020BCF0 /* DogeifyMeTests.m */; };
+		4DB7B18218A53D0B0020BCF0 /* ComicSans.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4DB7B18118A53D0B0020BCF0 /* ComicSans.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		4DB7B17318A53C2E0020BCF0 /* DogeifyMeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DogeifyMeTests-Info.plist"; sourceTree = "<group>"; };
 		4DB7B17518A53C2E0020BCF0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		4DB7B17718A53C2E0020BCF0 /* DogeifyMeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DogeifyMeTests.m; sourceTree = "<group>"; };
+		4DB7B18118A53D0B0020BCF0 /* ComicSans.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = ComicSans.ttf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +114,7 @@
 		4DB7B15218A53C2E0020BCF0 /* DogeifyMe */ = {
 			isa = PBXGroup;
 			children = (
+				4DB7B18118A53D0B0020BCF0 /* ComicSans.ttf */,
 				4DB7B15B18A53C2E0020BCF0 /* DMAppDelegate.h */,
 				4DB7B15C18A53C2E0020BCF0 /* DMAppDelegate.m */,
 				4DB7B15E18A53C2E0020BCF0 /* Main.storyboard */,
@@ -230,6 +233,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4DB7B16518A53C2E0020BCF0 /* Images.xcassets in Resources */,
+				4DB7B18218A53D0B0020BCF0 /* ComicSans.ttf in Resources */,
 				4DB7B15718A53C2E0020BCF0 /* InfoPlist.strings in Resources */,
 				4DB7B16018A53C2E0020BCF0 /* Main.storyboard in Resources */,
 			);
